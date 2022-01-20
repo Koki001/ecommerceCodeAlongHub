@@ -18,10 +18,14 @@
 
 @import "./partials/setup";
 @import "./partials/variables";
+
+// @import "./partials/clamp";
+
 @import "./partials/typography";
 @import "./partials/baseStyles";
 @import "./partials/nav";
 @import "./partials/header";
 @import "./partials/sections";
+@import "./partials/forms";
 @import "./partials/footer";
 @import "./partials/mediaQuieries";

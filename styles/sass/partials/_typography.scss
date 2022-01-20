@@ -55,6 +55,10 @@ h2 {
 
 h3 {
     font-size: 2.7rem;
+    // font-size: slamp(1rem, 10rem, 400px, 800px);
+    // font-size: clamp($minFontSize, $preferredValue, $maxFontSize);
+    // font-size: clamp(1rem, -0.875rem + 8.333vw, 3.5rem);
+    // font-size: $displayFont;
     line-height: 3rem;
     margin-bottom: 24px;
 }
@@ -105,6 +109,11 @@ p {
     }
     &.newsletterCopy {
         font-size: 0.8rem;
+    }
+    &.valueTitle {
+        font-size: 0.8rem;
+        font-weight: 700;
+        margin: 10px 0;
     }
 }
 
