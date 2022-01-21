@@ -592,6 +592,9 @@ header .headerContent .contentContainer {
   text-align: center;
   padding-bottom: 50px;
 }
+.contactHeader h3 {
+  font-size: calc(calc(10rem - 2rem) / calc(calc(840 / 16) - calc(360 / 16)));
+}
 
 .contactHeader::after {
   content: "";

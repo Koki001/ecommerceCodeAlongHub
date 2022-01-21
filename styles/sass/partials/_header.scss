@@ -32,6 +32,12 @@ header {
         align-items: center;
         text-align: center;
         padding-bottom: 50px;
+
+    }
+        // testing
+
+    h3 {
+        font-size: $slope;
     }
 }
 
@@ -44,3 +50,4 @@ header {
     height: 150px;
     background-color: $quaternary;
 }
+

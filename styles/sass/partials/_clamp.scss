@@ -1,12 +1,15 @@
-$maxFontSize: 3.5rem;
-$minFontSize: 1rem;
+$maxFontSize: 10rem;
+$minFontSize: 2rem;
 $maxWidth: calc(840 / 16);
 $minWidth: calc(360 / 16);
 
-// $testThis: calc(10rem / 2rem);
+$testThis: calc(10rem / 2rem);
+
 
 $rise: calc(#{$maxFontSize} - #{$minFontSize});
 $run: calc(#{$maxWidth} - #{$minWidth});
+
+
 
 $slope: calc(#{$rise} / #{$run});
 
@@ -14,6 +17,14 @@ $yIntersect: calc( - #{$minWidth} * #{$slope} + #{$minFontSize});
 
 $preferredValue: calc(#{$yIntersect} + #{$slope});
 
+
+
+
 $fontClamp: clamp($minFontSize, $preferredValue, $maxFontSize);
+
+
+
+
+
 
 // $displayFont: clamp(#{$minFontSize}, calc(#{$slope} * 100vw) - #{$yIntersect}, #{$maxFontSize});
