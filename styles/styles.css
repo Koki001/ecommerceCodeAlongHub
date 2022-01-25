@@ -546,32 +546,8 @@ label {
   border: 1px solid transparent;
 }
 
-header {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  background-color: #f8fbf3;
-  margin-bottom: 90px;
-}
-header .headerImageContainer {
-  width: 45%;
-}
-header .headerImageContainer img {
-  max-width: 100%;
-  vertical-align: middle;
-}
-header .headerContent {
-  width: 55%;
-  color: #084b6d;
-}
-header .headerContent .contentContainer {
-  margin: 0 auto;
-  width: 65%;
+html {
+  background-color: red;
 }
 
 .contactHeader {
